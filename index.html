@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Survey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a class="nav-link" href="#survey">Survey</a></li>
+
+            <li><a class="nav-link" href="#Feedback">Feedback</a></li>
+
+            <li><a class="nav-link" href="#Contact Me">Contact Me</a></li>
+        </ul>
+    </header>
+
+    <br>
+    <br>
+
+    <h1 class="h">Survey Form</h1>
+
+    <h2 class="h">Please rate your expierence</h2>
+
+    <img src="./mini_project_rating.avif" alt="4 out of 5 stars" width="400px" height="250px">
+
+    <br>
+
+    <form>
+        <fieldset>
+            <label>Name:<input id="name" type="text" placeholder="Your Name Here..." required></label>
+
+            <label>Email:<input id="email" type="email" placeholder="Janedoe@survey.com" required></label>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset id="Survey">
+            <label>How would you rate your expierence?</label>
+
+            <label><input type="radio" class="inline" value="1" checked>Poor</label>
+
+            <label><input type="radio" class="inline" name="attribute" value="2">Good</label>
+
+            <label><input type="radio" class="inline" name="attribute" value="3">Great</label>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset id="Feedback">
+            <label> Please leave additional feedback here.
+                <textarea rows="5" cols="30" placeholder="Comment here..."></textarea>
+            </label>
+            <br>
+            <input id="submit" type="submit" value="submit">
+        </fieldset>
+
+    </form>
+
+
+    <footer id="Contact Me">
+
+        <h3 class="h">Contact me!</h3>
+        <a href="https://www.linkedin.com/in/mekenna--baker/" target="_blank">
+            <img class="logo"
+                src="https://store-images.s-microsoft.com/image/apps.31120.9007199266245564.44dc7699-748d-4c34-ba5e-d04eb48f7960.bc4172bd-63f0-455a-9acd-5457f44e4473"
+                alt="linkedin logo" height="50">
+        </a>
+    </footer>
+</body>
+
+</html>
